@@ -1,51 +1,51 @@
-## Вебсайт з Тудус
+## Website of Todos
 
 ***
 
-## Структура каталогів файлів:
->./src/app/page.tsx - [Головна сторінка сайту](http://localhost:3000)
+##Structure of the project's folders:
+>./src/app/page.tsx - [Main page of the website](http://localhost:3000)
 >
->./src/app/todos/page.tsx - [Сторінка сайту з todos](http://localhost:3000/todos)
+>./src/app/todos/page.tsx - [The page with todos](http://localhost:3000/todos)
 >
->./src/components/.tsx - В цій папці ми зберігаємо компоненти, які можемо використовувати багато разів у різних місцях проекту
+>./src/components/.tsx - We store our components in this folder, that we can reuse
 >
->./src/lib/http.ts - Тут ми зберігаємо наші запити з сайту до сервера
+>./src/lib/http.ts - We store our queries to the server
 >
->./src/types/ - Тут ми зберігаємо типи TypeScript
+>./src/types/ - We storeTypeScript types
 >
->./src/constants.ts - У цьому файлі ми зберігаємо labels
+>./src/constants.ts - We store our labels here
 >
->./.prettier.js - Вказуємо правила форматування коду
+>./.prettier.js - Point the rules of formatting our code
 >
->./.eslintrc.json  - Вказуємо правила перевірки коду
+>./.eslintrc.json  - Point the rules of checking our code
 >
 
 ***
 
-## Встановленні NPM пакети
-* [next](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) був встановлен за допомогою [`npm create-next-app`]
-* [typescript](https://www.npmjs.com/package/typescript) для контролю типізації
-* [react](https://www.npmjs.com/package/react) для створення інтерактивних інтерфейсів.
-* [react-icons](https://www.npmjs.com/package/react-icons) включає популярні іконки у ваші React-проекти
+## Downloaded NPM packages
+* [next](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) was downloaded with [`npm create-next-app`]
+* [typescript](https://www.npmjs.com/package/typescript) 
+* [react](https://www.npmjs.com/package/react) 
+* [react-icons](https://www.npmjs.com/package/react-icons) 
 * [tailwindcss](https://www.npmjs.com/package/tailwindcss) CSS framework
-* [prettier](https://www.npmjs.com/package/prettier) це форматер коду
-* [eslint](https://www.npmjs.com/package/eslint) ESLint статично аналізує ваш код, щоб швидко знаходити проблеми
+* [prettier](https://www.npmjs.com/package/prettier)
+* [eslint](https://www.npmjs.com/package/eslint) 
 
 ***
 
-## Команди
+## Commands
 
-1. Запускає сервер
+1. Run out server
 ```sh
 	npm run dev 
 ```
 
-2. Запускає ESlint для перевірки на помилки
+2. Run EsLint
 ```sh
 	npm run lint 
 ```
 
-3. Запускає Prettier для форматування коду
+3. Run Prettier for formatting our code
 ```sh
 	npm run prettier 
 ```
